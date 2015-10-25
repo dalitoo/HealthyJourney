@@ -5,27 +5,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HealthyJourney.Data.Repository
+namespace HealthyJourney.Data.Repositories
 {
-    class SpecialityRepository
+    class badgeRepo
     {
           
         private HealthyJourneyContext ctx = null;
-        public SpecialityRepository()
+        public badgeRepo()
         {
             ctx = new HealthyJourneyContext();
         }
 
-        public void AddSpeciality(Speciality spe)
+        public void AddBadge(Badge b)
         {
-            ctx.Specialities.Add(spe);
+            ctx.Badges.Add(b);
             ctx.SaveChanges();
         }
 
-        public IEnumerable<Speciality> GetAllSpecialities()
+        public IEnumerable<Badge> GetAllBadges()
         {
-
-            return ctx.Specialities.ToList();
+            
+            return ctx.Badges.ToList();
 
         }
     }

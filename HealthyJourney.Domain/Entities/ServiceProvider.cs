@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace HealthyJourney.Domain.Entities
 {
     //[Table("ServiceProvider")]
-    public class ServiceProvider : User
+    public abstract class ServiceProvider : User
     {
 
         public string Name { get; set; }

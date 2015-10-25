@@ -10,3 +10,5 @@ C:\Users\thaer\Documents\Visual Studio 2015\Projects\HealthyJourney\HealthyJourn
 C:\Users\thaer\Documents\Visual Studio 2015\Projects\HealthyJourney\HealthyJourney.Data\obj\Debug\HealthyJourney.Data.csprojResolveAssemblyReference.cache
 C:\Users\thaer\Documents\Visual Studio 2015\Projects\HealthyJourney\HealthyJourney.Data\obj\Debug\HealthyJourney.Data.dll
 C:\Users\thaer\Documents\Visual Studio 2015\Projects\HealthyJourney\HealthyJourney.Data\obj\Debug\HealthyJourney.Data.pdb
+C:\Users\thaer\Documents\Visual Studio 2015\Projects\HealthyJourney\HealthyJourney.Data\obj\Debug\HealthyJourney.Data.Migrations.config3.resources
+C:\Users\thaer\Documents\Visual Studio 2015\Projects\HealthyJourney\HealthyJourney.Data\obj\Debug\HealthyJourney.Data.csproj.GenerateResource.Cache

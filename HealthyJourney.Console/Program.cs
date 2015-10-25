@@ -15,9 +15,9 @@ namespace HealthyJourney.Console
             HealthyJourneyContext ctx = null;
             ctx = new HealthyJourneyContext();
 
-            Badge badge = new Badge { Label="thaer" };
+            Admin c = new Admin { UserName = "thaer",Password="thaer",ConfirmPAssword="thaer",Email="thaer.saidi@esprit.tn",IsApproved=false };
 
-            ctx.Badges.Add(badge);
+            ctx.Users.Add(c);
             ctx.SaveChanges();
         }
     }

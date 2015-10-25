@@ -5,6 +5,5 @@ C:\Users\thaer\Documents\Visual Studio 2015\Projects\HealthyJourney\HealthyJourn
 C:\Users\thaer\Documents\Visual Studio 2015\Projects\HealthyJourney\HealthyJourney.Domain\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\thaer\Documents\Visual Studio 2015\Projects\HealthyJourney\HealthyJourney.Domain\bin\Debug\EntityFramework.xml
 C:\Users\thaer\Documents\Visual Studio 2015\Projects\HealthyJourney\HealthyJourney.Domain\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\thaer\Documents\Visual Studio 2015\Projects\HealthyJourney\HealthyJourney.Domain\obj\Debug\HealthyJourney.Domain.csprojResolveAssemblyReference.cache
 C:\Users\thaer\Documents\Visual Studio 2015\Projects\HealthyJourney\HealthyJourney.Domain\obj\Debug\HealthyJourney.Domain.dll
 C:\Users\thaer\Documents\Visual Studio 2015\Projects\HealthyJourney\HealthyJourney.Domain\obj\Debug\HealthyJourney.Domain.pdb

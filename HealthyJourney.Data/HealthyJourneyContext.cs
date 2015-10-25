@@ -1,6 +1,8 @@
-﻿using HealthyJourney.Domain.Entities;
+﻿using HealthyJourney.Data.Configurations;
+using HealthyJourney.Domain.Entities;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
@@ -16,16 +18,28 @@ namespace HealthyJourney.Data
 
         }
 
-        public DbSet<Client> Clients { get; set; }
-        public DbSet<ServiceProvider> ServiceProviders { get; set; }
-        public DbSet<Admin> Admins { get; set; }
-        public DbSet<Consultant> Consultants { get; set; }
+        public DbSet<User> Users { get; set; }
+       
 
         public DbSet<Badge> Badges { get; set; }
         public DbSet<MedicalRecord> MedicalRecords { get; set; }
         public DbSet<Speciality> Specialities { get; set; }
         public DbSet<MedicalCenterMetadata> MedicalCenterMetadatas { get; set; }
         public DbSet<ServiceProviderBadge> ServiceProviderBadges { get; set; }
+
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+           modelBuilder.Configurations.Add(new UserConfiguration());
+           
+      /*      modelBuilder.Entity<ServiceProvider>().Map(m =>
+            {
+                m.MapInheritedProperties();
+                m.ToTable("ServiceProviders");
+                
+            }); */
+
+        }
 
     }
 }
